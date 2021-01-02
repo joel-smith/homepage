@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--STYLES -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--This stylesheet not necesary -->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <title>Webfolio</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        //handles changing the active class for each button
+        //when each button is clicked, it will toggle to active
+        //toggle each other link off of active
+
+
+        $("#aboutLink").click(function(e) {
+            if (!$(this).hasClass("active")) {
+                $(this).toggleClass("active");
+                $("#portfolioLink").removeClass("active");
+                $("#contactLink").removeClass("active");
+            }
+        });
+
+        $("#portfolioLink").click(function(e) {
+            if (!$(this).hasClass("active")) {
+                $(this).toggleClass("active");
+                $("#aboutLink").removeClass("active");
+                $("#contactLink").removeClass("active");
+            }
+        });
+
+        $("#contactLink").click(function(e) {
+            if (!$(this).hasClass("active")) {
+                $(this).toggleClass("active");
+                $("#aboutLink").removeClass("active");
+                $("#portfolioLink").removeClass("active");
+            }
+        });
+
+    });
+    </script>
+
+</head>
+
+
+<body>
+
+    <!-- <nav id="navbar" class="header">
+        <ul> 
+            <li><a id="about_link" href="#about_section">ABOUT</a></li>
+            <li><a id="portfolio_link" href="#portfolio_section">PORTFOLIO</a></li>
+            <li><a id="contact_link" href="#contact_section">CONTACT</a></li>
+        </ul>
+    </nav>  -->
+
+    <nav class="topnav" id="navbar">
+
+        <a id="aboutLink" href="#about_section" class="active">About</a>
+        <a id="portfolioLink" href="#portfolio_section">Portfolio</a>
+        <a id="contactLink" href="#contact_section">Contact</a>
+        <a id="burgerLink" href="javascript:void(0);" class="icon" onclick="openNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+    </nav>
+
+    <script>
+    //expands the navbar on hamburger menu press
+    function openNav() {
+        var x = document.getElementById("navbar");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+
+    <main id="site_main">
+        <!--ABOUT -->
+
+        <div class="wrap">
+        <section id="about_section" class="intro">
+            <h2>About Me</h2>
+            <div class="about_text">
+                <!-- PUT THIS IN SOME KINDA OF BUBBLE-->
+                <p>Welcome! I am a Software Engineering Co-Op student looking to ply my new trade.
+                    Formerly a professional scientist, I have been studying Software Development and am now
+                    ready to work. Learning, building new things, solving problems, these are what interest me
+                    and drive me forward. BLAGGITBY BLAGGITY BLOO I LOVE YOU!
+                </p>
+            </div>
+
+
+            <!-- SKILLS (Thanks Fontawesome) 
+            should this become a grid??? maybe maybe not
+            -->
+            <div class="all_skills">
+                
+                <div class="skill_details">
+                    <div class="skill_icon">
+                        <i class="fab fa-js fa-3x" style="color:#F0D92F"></i>
+                    </div>
+                    <div class="skill_desc">
+                        <p style="color:#F0D92F">JavaScript</p>
+                    </div>
+                </div>
+                <div class="skill_details">
+                    <div class="skill_icon">
+                        <i class="fab fa-linux fa-3x" style="color:#5FD4F4"></i>
+                    </div>
+                    <div class="skill_desc">
+                        <p style="color:#5FD4F4">Linux</p>
+                    </div>
+                </div>
+                <div class="skill_details">
+                    <div class="skill_icon">
+                        <i class="fab fa-cuttlefish fa-3x" style="color:#6BBF46">++</i>
+                    </div>
+                    <div class="skill_desc">
+                        <p style="color:#6BBF46">C++</p>
+                    </div>
+                </div>
+                <div class="skill_details">
+                    <div class="skill_icon">
+                        <i class="fas fa-database fa-3x" style="color:#EEAD31"></i>
+                    </div>
+                    <div class="skill_desc">
+                        <p style="color:#EEAD31">SQL</p>
+                    </div>
+                </div>
+                <div class="skill_details">
+                    <div class="skill_icon">
+                        <i class="fas fa-microchip fa-3x" style="color:#45AFF4"></i>
+                    </div>
+                    <div class="skill_desc">
+                        <p style="color:#45AFF4">Embedded</p>
+                    </div>
+                </div>
+                <div class="skill_details">
+                    <div class="skill_icon">
+                        <i class="fab fa-git-square fa-3x" style="color:#E44D32"></i>
+                    </div>
+                    <div class="skill_desc">
+                        <p style="color:#E44D32">Git</p>
+                    </div>
+                </div>
+                <div class="skill_details">
+                    <div class="skill_icon">
+                        <i class="fab fa-html5 fa-3x" style="color:#DE4B30"></i>
+                    </div>
+                    <div class="skill_desc">
+                        <p style="color:#DE4B30">HTML5</p>
+                    </div>
+                </div>
+                <div class="skill_details">
+                    <div class="skill_icon">
+                        <i class="fab fa-css3-alt fa-3x" style="color:#42A4DA"></i>
+                    </div>
+                    <div class="skill_desc">
+                        <p style="color:#42A4DA">CSS3</p>
+                    </div>
+                </div>
+            </section>
+          </div>  
+
+        <section id="portfolio_section">
+
+
+        </section>
+
+        <section id="contact_section">
+
+            <div class="formContainer">
+                <form method="POST" action="" id="contact_form">
+                    <h2>Contact</h2>
+                    <div class="row">
+                        <div class="col-25">
+
+                            <label for="name">Name:</label>
+                        </div>
+                        <div class="col-75">
+                            <input name="name" type="text" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Email:</label>
+                        </div>
+
+                        <div class="col-75">
+                            <input style="cursor: pointer;" name="email" type="text" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="message">Message:</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea name="message"></textarea>
+                        </div>
+
+                        <div class="row">
+                            <input type="submit" value="Send" />
+                        </div>
+                </form>
+            </div>
+
+
+            <?php
+                $name = $_POST['name'];
+                $visitor_email = $_POST['email'];
+                $message = $_POST['message'];
+                ?>
+
+            <!--need security on this here for sure 
+            https://www.w3schools.com/php/php_form_validation.asp for removal of http special chars
+            -->
+
+            <?php
+	        $email_from = 'contact@joelcs.net';
+
+	        $email_subject = "New Form submission";
+
+	        $email_body = "You have received a new message from the user $name.\n".
+                            "Here is the message:\n $message"
+            ?>
+
+
+            <?php
+
+            $to = "contact@joelcs.net";
+
+            $headers = "From: $email_from \r\n";
+
+            $headers .= "Reply-To: $visitor_email \r\n";
+
+            mail($to,$email_subject,$email_body,$headers);
+
+            ?>
+        </section>
+    </main>
+
+</body>
+
+</html>
