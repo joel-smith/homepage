@@ -90,93 +90,161 @@
         <!--ABOUT -->
 
         <div class="wrap">
-        <section id="about_section" class="intro">
-            <h2>About Me</h2>
-            <div class="about_text">
-                <!-- PUT THIS IN SOME KINDA OF BUBBLE-->
-                <p>Welcome! I am a Software Engineering Co-Op student looking to ply my new trade.
-                    Formerly a professional scientist, I have been studying Software Development and am now
-                    ready to work. Learning, building new things, solving problems, these are what interest me
-                    and drive me forward. BLAGGITBY BLAGGITY BLOO I LOVE YOU!
-                </p>
-            </div>
+            <section id="about_section" class="intro">
+                <h2>About Me</h2>
+                <div class="about_text">
+                    <!-- PUT THIS IN SOME KINDA OF BUBBLE-->
+                    <p>Welcome! I am a Software Engineering Co-Op student looking to ply my new trade.
+                        Formerly a professional scientist, I have been studying Software Development and am now
+                        ready to work. Learning, building new things, solving problems, these are what interest me
+                        and drive me forward. BLAGGITBY BLAGGITY BLOO I LOVE YOU!
+                    </p>
+                </div>
 
 
-            <!-- SKILLS (Thanks Fontawesome) 
+                <!-- SKILLS (Thanks Fontawesome) 
             should this become a grid??? maybe maybe not
             -->
-            <div class="all_skills">
-                
-                <div class="skill_details">
-                    <div class="skill_icon">
-                        <i class="fab fa-js fa-3x" style="color:#F0D92F"></i>
+                <div class="all_skills">
+
+                    <div class="skill_details">
+                        <div class="skill_icon">
+                            <i class="fab fa-js fa-3x" style="color:#F0D92F"></i>
+                        </div>
+                        <div class="skill_desc">
+                            <p style="color:#F0D92F">JavaScript</p>
+                        </div>
                     </div>
-                    <div class="skill_desc">
-                        <p style="color:#F0D92F">JavaScript</p>
+                    <div class="skill_details">
+                        <div class="skill_icon">
+                            <i class="fab fa-linux fa-3x" style="color:#5FD4F4"></i>
+                        </div>
+                        <div class="skill_desc">
+                            <p style="color:#5FD4F4">Linux</p>
+                        </div>
                     </div>
-                </div>
-                <div class="skill_details">
-                    <div class="skill_icon">
-                        <i class="fab fa-linux fa-3x" style="color:#5FD4F4"></i>
+                    <div class="skill_details">
+                        <div class="skill_icon">
+                            <i class="fab fa-cuttlefish fa-3x" style="color:#6BBF46">++</i>
+                        </div>
+                        <div class="skill_desc">
+                            <p style="color:#6BBF46">C++</p>
+                        </div>
                     </div>
-                    <div class="skill_desc">
-                        <p style="color:#5FD4F4">Linux</p>
+                    <div class="skill_details">
+                        <div class="skill_icon">
+                            <i class="fas fa-database fa-3x" style="color:#EEAD31"></i>
+                        </div>
+                        <div class="skill_desc">
+                            <p style="color:#EEAD31">SQL</p>
+                        </div>
                     </div>
-                </div>
-                <div class="skill_details">
-                    <div class="skill_icon">
-                        <i class="fab fa-cuttlefish fa-3x" style="color:#6BBF46">++</i>
+                    <div class="skill_details">
+                        <div class="skill_icon">
+                            <i class="fas fa-microchip fa-3x" style="color:#45AFF4"></i>
+                        </div>
+                        <div class="skill_desc">
+                            <p style="color:#45AFF4">Embedded</p>
+                        </div>
                     </div>
-                    <div class="skill_desc">
-                        <p style="color:#6BBF46">C++</p>
+                    <div class="skill_details">
+                        <div class="skill_icon">
+                            <i class="fab fa-git-square fa-3x" style="color:#E44D32"></i>
+                        </div>
+                        <div class="skill_desc">
+                            <p style="color:#E44D32">Git</p>
+                        </div>
                     </div>
-                </div>
-                <div class="skill_details">
-                    <div class="skill_icon">
-                        <i class="fas fa-database fa-3x" style="color:#EEAD31"></i>
+                    <div class="skill_details">
+                        <div class="skill_icon">
+                            <i class="fab fa-html5 fa-3x" style="color:#DE4B30"></i>
+                        </div>
+                        <div class="skill_desc">
+                            <p style="color:#DE4B30">HTML5</p>
+                        </div>
                     </div>
-                    <div class="skill_desc">
-                        <p style="color:#EEAD31">SQL</p>
+                    <div class="skill_details">
+                        <div class="skill_icon">
+                            <i class="fab fa-css3-alt fa-3x" style="color:#42A4DA"></i>
+                        </div>
+                        <div class="skill_desc">
+                            <p style="color:#42A4DA">CSS3</p>
+                        </div>
                     </div>
-                </div>
-                <div class="skill_details">
-                    <div class="skill_icon">
-                        <i class="fas fa-microchip fa-3x" style="color:#45AFF4"></i>
-                    </div>
-                    <div class="skill_desc">
-                        <p style="color:#45AFF4">Embedded</p>
-                    </div>
-                </div>
-                <div class="skill_details">
-                    <div class="skill_icon">
-                        <i class="fab fa-git-square fa-3x" style="color:#E44D32"></i>
-                    </div>
-                    <div class="skill_desc">
-                        <p style="color:#E44D32">Git</p>
-                    </div>
-                </div>
-                <div class="skill_details">
-                    <div class="skill_icon">
-                        <i class="fab fa-html5 fa-3x" style="color:#DE4B30"></i>
-                    </div>
-                    <div class="skill_desc">
-                        <p style="color:#DE4B30">HTML5</p>
-                    </div>
-                </div>
-                <div class="skill_details">
-                    <div class="skill_icon">
-                        <i class="fab fa-css3-alt fa-3x" style="color:#42A4DA"></i>
-                    </div>
-                    <div class="skill_desc">
-                        <p style="color:#42A4DA">CSS3</p>
-                    </div>
-                </div>
             </section>
-          </div>  
+        </div>
 
+        <!--maybe add a modal for each project? -->
         <section id="portfolio_section">
-
-
+            <div class="Projects">
+                <div>
+                    <h2 class="section_name">Projects</h2>
+                </div>
+                <div class="project_wrapper">
+                    <div class="project_tile">
+                        <div>
+                            <img class="project_pic" src="assets/img/InnovarDisplay.jpeg" alt="Project_Screenshot">
+                        </div>
+                        <div class="project_info">
+                            <div class="project_words">
+                                <h3>Innovar VR</h3>
+                                <p>blaggity blaggity bloo this is the project and what it do here is some words about it</p>
+                            </div>
+                            <div class="project_links">
+                                <a href="#" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_tile">
+                        <div>
+                            <img class="project_pic" src="assets/img/placeholder.jpg" alt="Project_Screenshot">
+                        </div>
+                        <div class="project_info">
+                            <div class="project_words">
+                                <h3>BLAH BLAH PROJECT</h3>
+                                 <p>blaggity blaggity bloo this is the project and what it do here is some words about it</p>
+                            </div>
+                            <div class="project_links">
+                                <a href="#" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_tile">
+                        <div>
+                            <img class="project_pic" src="assets/img/placeholder.jpg"
+                                alt="Project_Screenshot">
+                        </div>
+                        <div class="project_info">
+                            <div class="project_words">
+                                <h3>Practice Project</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, s
+                                ed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div class="project_links">
+                                <a href="#"
+                                    target="_blank">Medium</a>
+                                <a href="#"
+                                    target="_blank">GitHub</a>
+                                <a href="#" target="_blank">THIRDLINK</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_tile">
+                        <div>
+                            <img class="project_pic" src="assets/img/placeholder.jpg" alt="Project_Screenshot">
+                        </div>
+                        <div class="project_info">
+                            <div class="project_words">
+                                <h3>BLAH BLAH PROJECT</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, s
+                                ed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div class="project_links">
+                                <a href="#" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </section>
 
         <section id="contact_section">
