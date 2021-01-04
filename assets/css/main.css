@@ -224,11 +224,45 @@ html, body {
     justify-content: center;
 }
 
+.all_contacts {
+    display: inline-block;
+}
+
+.contact_details {
+    margin: 2.5rem;
+    display: inline-block;
+}
+
+.contact_details:hover {
+    background: #BACDD9;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 0.5rem;
+}
+
+.contact_desc {
+    color: #8A6;
+    font-size: 2.4rem;
+    margin: 0 6rem;
+    display: inline-block;
+    font-weight: 700;
+    max-width: 60rem;
+    line-height: 3.5rem;
+    text-align: center;
+}
+
+.desc a {
+    color: #0378A6;
+}
+
 .formContainer {
     border: 1px solid red;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .formContainer h2 {
@@ -291,7 +325,7 @@ input[type=submit] {
 
 @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
-        width: 50%;
+        width: 100%;
         margin-top: 0;
     }
 }

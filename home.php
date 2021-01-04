@@ -7,8 +7,6 @@
 
     <!--STYLES -->
     <link rel="stylesheet" href="assets/css/main.css" />
-    <!--This stylesheet not necesary -->
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
@@ -55,14 +53,6 @@
 
 <body>
 
-    <!-- <nav id="navbar" class="header">
-        <ul> 
-            <li><a id="about_link" href="#about_section">ABOUT</a></li>
-            <li><a id="portfolio_link" href="#portfolio_section">PORTFOLIO</a></li>
-            <li><a id="contact_link" href="#contact_section">CONTACT</a></li>
-        </ul>
-    </nav>  -->
-
     <nav class="topnav" id="navbar">
 
         <a id="aboutLink" href="#about_section" class="active">About</a>
@@ -91,10 +81,10 @@
 
         <div class="wrap">
             <section id="about_section" class="intro">
-               
-            <img class="headshot" src="assets/img/avatar.jpg">
-            
-             <h2>About Me</h2>
+
+                <img class="headshot" src="assets/img/avatar.jpg">
+
+                <h2>About Me</h2>
                 <div class="about_text">
                     <p>Welcome! I am a Software Engineering Co-Op student looking to ply my new trade.
                         Formerly a professional scientist, I have been studying Software Development and am now
@@ -182,21 +172,21 @@
                             <p style="color:#42A4DA">CSS3</p>
                         </div>
                     </div>
-                </br>
-            <h2>Education</h2>
-            <div class="about_text">
-                    
-                    <p>Software Engineering Technology Co-Op</p>
-                    
-                    <p>Conestoga College - Curently Enrolled</p>
                     </br>
-                    <p>Bachelor of Science - Major in Physics, Minor in Chemistry</p>
-                    
-                    <p>Mount Allison University - 2015</p>
-                
-                </div>
-            
-                </section>
+                    <h2>Education</h2>
+                    <div class="about_text">
+
+                        <p>Software Engineering Technology Co-Op</p>
+
+                        <p>Conestoga College - Curently Enrolled</p>
+                        </br>
+                        <p>Bachelor of Science - Major in Physics, Minor in Chemistry</p>
+
+                        <p>Mount Allison University - 2015</p>
+
+                    </div>
+
+            </section>
         </div>
 
         <!--maybe add a modal for each project? -->
@@ -206,7 +196,7 @@
                     <h2 class="section_name">Projects</h2>
                 </div>
                 <div class="project_wrapper">
-                    
+
                     <div class="project_tile">
                         <div>
                             <img class="project_pic" src="assets/img/placeholder.jpg" alt="Project_Screenshot">
@@ -214,7 +204,8 @@
                         <div class="project_info">
                             <div class="project_words">
                                 <h3>SimpleHttpWebServer</h3>
-                                 <p>This is a Web Server made in C#. The user chooses the root folder for the server, and serve html, text and image files.</p>
+                                <p>This is a Web Server made in C#. The user chooses the root folder for the server, and
+                                    serve html, text and image files.</p>
                             </div>
                             <div class="project_links">
                                 <a href="https://github.com/joel-smith/SimpleHttpWebServer/" target="_blank">GitHub</a>
@@ -224,18 +215,17 @@
 
                     <div class="project_tile">
                         <div>
-                            <img class="project_pic" src="assets/img/placeholder.jpg"
-                                alt="Project_Screenshot">
+                            <img class="project_pic" src="assets/img/placeholder.jpg" alt="Project_Screenshot">
                         </div>
                         <div class="project_info">
                             <div class="project_words">
                                 <h3>Chat Chat</h3>
-                                <p>This is a multi-threaded chatroom program in C#, allowing users to speak to each other in a chatroom across the network</p>                            </div>
+                                <p>This is a multi-threaded chatroom program in C#, allowing users to speak to each
+                                    other in a chatroom across the network</p>
+                            </div>
                             <div class="project_links">
-                                <a href="#"
-                                    target="_blank">???</a>
-                                <a href="#"
-                                    target="_blank">GitHub</a>
+                                <a href="#" target="_blank">???</a>
+                                <a href="#" target="_blank">GitHub</a>
                                 <a href="#" target="_blank">THIRDLINK</a>
                             </div>
                         </div>
@@ -278,7 +268,8 @@
                         <div class="project_info">
                             <div class="project_words">
                                 <h3>HomeLab</h3>
-                                <p>My personal homelab has been growing for years, featuring modern, vintage and refurbished equipment.</p>
+                                <p>My personal homelab has been growing for years, featuring modern, vintage and
+                                    refurbished equipment.</p>
                             </div>
                             <div class="project_links">
                                 <a href="#" target="_blank">Lab Scope</a>
@@ -293,7 +284,8 @@
                         <div class="project_info">
                             <div class="project_words">
                                 <h3>Innovar VR</h3>
-                                <p>Virtual Reality tourism product esign and presentation for a hackathon/pitch competition.</p>
+                                <p>Virtual Reality tourism product esign and presentation for a hackathon/pitch
+                                    competition.</p>
                             </div>
                             <div class="project_links">
                                 <a href="#" target="_blank">GitHub</a>
@@ -304,18 +296,50 @@
         </section>
 
         <section id="contact_section">
+            <h2>Contact</h2>
+            <div class="contact_desc">
+                <p>Always interested in working on new projects and discussing new opportunities, drop me a line in the
+                    form below or one of the links.</p>
+            </div>
+            </br>
+            <div class="all_contacts">
+
+                <!--GITHUB-->
+                <div class="contact_details">
+                    <div class="icon">
+                        <a href="https://www.github.com/joel-smith/" target="_blank"><i class="fab fa-github fa-3x"
+                                style="color:#0378A6"></i></a>
+                    </div>
+                    <div class="desc">
+                        <a href="https://www.github.com/joel-smith/" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            
+
+            <!-- LINKEDIN -->
+            <div class="contact_details">
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/joelcraigsmith/" target="_blank"><i
+                            class="fab fa-linkedin fa-3x" style="color:#0378A6"></i></a>
+                </div>
+                <div class="desc">
+                    <a href="https://www.linkedin.com/in/joelcraigsmith/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+
+            </div>
 
             <!--Contact Form, sends me an email to my own domain emails -->
             <div class="formContainer">
                 <form method="POST" action="" id="contact_form">
-                    <h2>Contact</h2>
+                    
                     <div class="row">
                         <div class="col-25">
 
                             <label for="name">Name:</label>
                         </div>
                         <div class="col-75">
-                            <input name="name" type="text" maxlength="150" required/>
+                            <input name="name" type="text" maxlength="150" required />
                         </div>
                     </div>
                     <div class="row">
@@ -324,7 +348,7 @@
                         </div>
 
                         <div class="col-75">
-                            <input  name="email" type="email" required/>
+                            <input name="email" type="email" required />
                         </div>
                     </div>
 
