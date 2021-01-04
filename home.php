@@ -91,19 +91,22 @@
 
         <div class="wrap">
             <section id="about_section" class="intro">
-                <h2>About Me</h2>
+               
+            <img class="headshot" src="assets/img/avatar.jpg">
+            
+             <h2>About Me</h2>
                 <div class="about_text">
-                    <!-- PUT THIS IN SOME KINDA OF BUBBLE-->
                     <p>Welcome! I am a Software Engineering Co-Op student looking to ply my new trade.
                         Formerly a professional scientist, I have been studying Software Development and am now
                         ready to work. Learning, building new things, solving problems, these are what interest me
-                        and drive me forward. BLAGGITBY BLAGGITY BLOO I LOVE YOU!
+                        and drive me forward.
                     </p>
                 </div>
 
 
                 <!-- SKILLS (Thanks Fontawesome) 
             should this become a grid??? maybe maybe not
+            more skills listed to be needed
             -->
                 <div class="all_skills">
 
@@ -129,6 +132,14 @@
                         </div>
                         <div class="skill_desc">
                             <p style="color:#6BBF46">C++</p>
+                        </div>
+                    </div>
+                    <div class="skill_details">
+                        <div class="skill_icon">
+                            <i class="fab fa-cuttlefish fa-3x" style="color:#6BBF46">#</i>
+                        </div>
+                        <div class="skill_desc">
+                            <p style="color:#6BBF46">C#</p>
                         </div>
                     </div>
                     <div class="skill_details">
@@ -171,44 +182,46 @@
                             <p style="color:#42A4DA">CSS3</p>
                         </div>
                     </div>
-            </section>
+                </br>
+            <h2>Education</h2>
+            <div class="about_text">
+                    
+                    <p>Software Engineering Technology Co-Op</p>
+                    
+                    <p>Conestoga College - Curently Enrolled</p>
+                    </br>
+                    <p>Bachelor of Science - Major in Physics, Minor in Chemistry</p>
+                    
+                    <p>Mount Allison University - 2015</p>
+                
+                </div>
+            
+                </section>
         </div>
 
         <!--maybe add a modal for each project? -->
         <section id="portfolio_section">
-            <div class="Projects">
+            <div class="projects">
                 <div>
                     <h2 class="section_name">Projects</h2>
                 </div>
                 <div class="project_wrapper">
-                    <div class="project_tile">
-                        <div>
-                            <img class="project_pic" src="assets/img/InnovarDisplay.jpeg" alt="Project_Screenshot">
-                        </div>
-                        <div class="project_info">
-                            <div class="project_words">
-                                <h3>Innovar VR</h3>
-                                <p>blaggity blaggity bloo this is the project and what it do here is some words about it</p>
-                            </div>
-                            <div class="project_links">
-                                <a href="#" target="_blank">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="project_tile">
                         <div>
                             <img class="project_pic" src="assets/img/placeholder.jpg" alt="Project_Screenshot">
                         </div>
                         <div class="project_info">
                             <div class="project_words">
-                                <h3>BLAH BLAH PROJECT</h3>
-                                 <p>blaggity blaggity bloo this is the project and what it do here is some words about it</p>
+                                <h3>SimpleHttpWebServer</h3>
+                                 <p>This is a Web Server made in C#. The user chooses the root folder for the server, and serve html, text and image files.</p>
                             </div>
                             <div class="project_links">
-                                <a href="#" target="_blank">GitHub</a>
+                                <a href="https://github.com/joel-smith/SimpleHttpWebServer/" target="_blank">GitHub</a>
                             </div>
                         </div>
                     </div>
+
                     <div class="project_tile">
                         <div>
                             <img class="project_pic" src="assets/img/placeholder.jpg"
@@ -216,28 +229,71 @@
                         </div>
                         <div class="project_info">
                             <div class="project_words">
-                                <h3>Practice Project</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, s
-                                ed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
+                                <h3>Chat Chat</h3>
+                                <p>This is a multi-threaded chatroom program in C#, allowing users to speak to each other in a chatroom across the network</p>                            </div>
                             <div class="project_links">
                                 <a href="#"
-                                    target="_blank">Medium</a>
+                                    target="_blank">???</a>
                                 <a href="#"
                                     target="_blank">GitHub</a>
                                 <a href="#" target="_blank">THIRDLINK</a>
                             </div>
                         </div>
                     </div>
+
                     <div class="project_tile">
                         <div>
                             <img class="project_pic" src="assets/img/placeholder.jpg" alt="Project_Screenshot">
                         </div>
                         <div class="project_info">
                             <div class="project_words">
-                                <h3>BLAH BLAH PROJECT</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, s
-                                ed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h3>Low Level Snake</h3>
+                                <p>This is a alksjflaksjfas alskjfalskfas falskfjasfij</p>
+                            </div>
+                            <div class="project_links">
+                                <a href="#" target="_blank">Github</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project_tile">
+                        <div>
+                            <img class="project_pic" src="assets/img/placeholder.jpg" alt="Project_Screenshot">
+                        </div>
+                        <div class="project_info">
+                            <div class="project_words">
+                                <h3>Portfolio Homepage</h3>
+                                <p>This very website you are looking at, crafted with HTML, CSS and Javascript.</p>
+                            </div>
+                            <div class="project_links">
+                                <a href="#" target="_blank">Github</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project_tile">
+                        <div>
+                            <img class="project_pic" src="assets/img/placeholder.jpg" alt="Project_Screenshot">
+                        </div>
+                        <div class="project_info">
+                            <div class="project_words">
+                                <h3>HomeLab</h3>
+                                <p>My personal homelab has been growing for years, featuring modern, vintage and refurbished equipment.</p>
+                            </div>
+                            <div class="project_links">
+                                <a href="#" target="_blank">Lab Scope</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project_tile">
+                        <div>
+                            <img class="project_pic" src="assets/img/InnovarDisplay.jpeg" alt="Project_Screenshot">
+                        </div>
+                        <div class="project_info">
+                            <div class="project_words">
+                                <h3>Innovar VR</h3>
+                                <p>Virtual Reality tourism product esign and presentation for a hackathon/pitch competition.</p>
                             </div>
                             <div class="project_links">
                                 <a href="#" target="_blank">GitHub</a>
@@ -249,6 +305,7 @@
 
         <section id="contact_section">
 
+            <!--Contact Form, sends me an email to my own domain emails -->
             <div class="formContainer">
                 <form method="POST" action="" id="contact_form">
                     <h2>Contact</h2>
@@ -258,7 +315,7 @@
                             <label for="name">Name:</label>
                         </div>
                         <div class="col-75">
-                            <input name="name" type="text" />
+                            <input name="name" type="text" maxlength="150" required/>
                         </div>
                     </div>
                     <div class="row">
@@ -267,7 +324,7 @@
                         </div>
 
                         <div class="col-75">
-                            <input style="cursor: pointer;" name="email" type="text" />
+                            <input  name="email" type="email" required/>
                         </div>
                     </div>
 
@@ -276,7 +333,7 @@
                             <label for="message">Message:</label>
                         </div>
                         <div class="col-75">
-                            <textarea name="message"></textarea>
+                            <textarea name="message" required rows="8" maxlength="1250"></textarea>
                         </div>
 
                         <div class="row">
@@ -285,11 +342,23 @@
                 </form>
             </div>
 
-
+            <!-- validation and serverside treatment of form data -->
             <?php
-                $name = $_POST['name'];
-                $visitor_email = $_POST['email'];
-                $message = $_POST['message'];
+                
+                if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                    $name = treat_input($_POST['name']);
+                    $visitor_email = treat_input($_POST['email']);
+                    $message = treat_input($_POST['message']);
+                }
+                
+                //this function removes whitespace, treats html special chars and removes any slashes
+                function treat_input($data) {
+                    $data = trim($data);
+                    $data = stripslashes($data);
+                    $data = htmlspecialchars($data);
+                    return $data;
+                }
+                
                 ?>
 
             <!--need security on this here for sure 

@@ -9,56 +9,14 @@
 
 html, body {
     font-size: 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #333;
     width: 100%;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     text-align: center;
 }
-
-/* li {
-    list-style: none;
-}
-
-
-a {
-    text-decoration: none;
-}
-
-
-.topnav{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    background-color:darkslategray;
-    min-width: 65rem;
-}
-
-nav ul {
-    text-align: right;
-    padding-right: 2rem;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 1.5rem 4.5rem;
-}
-
-nav ul li a {
-    display: inline-block;     
-    position: relative;    
-    z-index: 1;     
-    padding: 2rem;     
-    margin: -2rem; 
-    color: white;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-nav ul li a:hover {
-  color: #BACDD9;
-} */
 
 /*NAVBAR*/
 
@@ -78,9 +36,9 @@ nav ul li a:hover {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1.4rem 1.6rem;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.7rem;
 }
 
 .topnav a:hover {
@@ -125,6 +83,20 @@ nav ul li a:hover {
 }
 
 /*Intro & About section*/
+
+.headshot {
+    width: 13%;
+    border-color: darkslateblue;
+    border-width: 1rem;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .headshot {
+        width: 22%;
+    }
+}
 
 .intro {
     height: auto;
@@ -237,7 +209,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-._Projects {
+.projects {
     padding-top: 3rem;
 }
 
@@ -259,9 +231,17 @@ nav ul li a:hover {
     padding: 20px;
 }
 
+.formContainer h2 {
+    font-size: 2rem;
+}
+
+.formContainer label {
+    font-size: 1.8rem;
+}
+
 /*styled inputs*/
 
-input[type=text], select, textarea {
+input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 0.5em;
     border: 1px solid #ccc;
