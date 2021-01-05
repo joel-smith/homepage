@@ -53,7 +53,9 @@
 
 <body>
 
-    <nav class="topnav" id="navbar">
+
+
+     <nav class="topnav" id="navbar">
 
         <a id="aboutLink" href="#about_section" class="active">About</a>
         <a id="portfolioLink" href="#portfolio_section">Portfolio</a>
@@ -61,10 +63,9 @@
         <a id="burgerLink" href="javascript:void(0);" class="icon" onclick="openNav()">
             <i class="fa fa-bars"></i>
         </a>
+    </nav>  
 
-    </nav>
-
-    <script>
+     <script>
     //expands the navbar on hamburger menu press
     function openNav() {
         var x = document.getElementById("navbar");
@@ -191,10 +192,11 @@
 
         <!--maybe add a modal for each project? -->
         <section id="portfolio_section">
-            <div class="projects">
-                <div>
+           
                     <h2 class="section_name">Projects</h2>
-                </div>
+                
+            <div class="projects">
+                
                 <div class="project_wrapper">
 
                     <div class="project_tile">
