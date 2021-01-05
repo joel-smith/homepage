@@ -240,7 +240,7 @@
                         <div class="project_info">
                             <div class="project_words">
                                 <h3>Low Level Snake</h3>
-                                <p>This is a alksjflaksjfas alskjfalskfas falskfjasfij</p>
+                                <p>This is a alksjflaksjfas alskjf alskfas falskf jasfij This is a alksjflaksjfas alskjf alskfas falskf jasfij This is a alksjflaksjfas alskjf alskfas falskf jasfij</p>
                             </div>
                             <div class="project_links">
                                 <a href="#" target="_blank">Github</a>
@@ -255,7 +255,7 @@
                         <div class="project_info">
                             <div class="project_words">
                                 <h3>Portfolio Homepage</h3>
-                                <p>This very website you are looking at, crafted with HTML, CSS and Javascript.</p>
+                                <p>This very website you are looking at, crafted with HTML, CSS and Javascript. Designed to be extensible and always under improvement!</p>
                             </div>
                             <div class="project_links">
                                 <a href="#" target="_blank">Github</a>
@@ -333,7 +333,7 @@
 
             <!--Contact Form, sends me an email to my own domain emails -->
             <div class="formContainer">
-                <form method="POST" action="" id="contact_form">
+                <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" id="contact_form">
                     
                     <div class="row">
                         <div class="col-25">
