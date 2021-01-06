@@ -1,8 +1,6 @@
 :root {
     font-size: 62.5%;
     /* 62.5% of 16px is 10px, 1rem = 10px */
-
-
     /*color scheme*/
     --bg-primary: #333;
     --bg-secondary: #192038;
@@ -11,7 +9,6 @@
     --col-border: #483d8b;
     --col-bubble: #132329;
     --col-inputs: #CCC;
-    
     /*generics*/
     --white: #ffffff;
     --black: #000000;
@@ -31,6 +28,10 @@ html, body {
     padding: 0;
     scroll-behavior: smooth;
     text-align: center;
+}
+
+h2, h3 {
+    color: var(--white);
 }
 
 /*NAVBAR*/
@@ -123,6 +124,14 @@ html, body {
     margin-top: 3em;
 }
 
+/* .my_name{
+
+}
+
+.my_tagline{
+
+} */
+
 .about_text {
     background-color: var(--col-bubble);
     color: white;
@@ -135,6 +144,24 @@ html, body {
     max-width: 70rem;
     line-height: 3.5rem;
     text-align: left;
+}
+
+.edu_degree {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.edu_extra {
+    text-align: center;
+}
+
+.edu_school {
+    text-align: center;
+}
+
+.edu_status {
+    text-align: center;
+    font-size: 1.8rem;
 }
 
 /*Skills display*/
@@ -189,18 +216,21 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--white);
 }
 
 .project_words h2 {
     font-weight: 400;
     margin: 1rem 0 1rem 0;
+    color: var(--white);
 }
 
 .project_words p {
     font-weight: 400;
     margin: 1rem 0 1rem 0;
     width: 30rem;
-    height: 9rem;
+    height: 7rem;
+    color: var(--white);
 }
 
 .project_links {

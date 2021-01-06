@@ -47,11 +47,10 @@
 
     });
 
-
+    //collapses the navbar menu when clicking outside of it
     $(document).on('click', function(e) {
         console.log('click works yo');
-        if (! $(e.target).closest('#navbar').length )
-        {
+        if (!$(e.target).closest('#navbar').length) {
             $("#navbar").removeClass(" responsive");
         }
 
@@ -59,7 +58,7 @@
     });
     </script>
 
-     <script>
+    <script>
     //expands the navbar on hamburger menu press
     function openNav() {
         var x = document.getElementById("navbar");
@@ -69,7 +68,6 @@
             x.className = "topnav";
         }
     }
-
     </script>
 
 </head>
@@ -79,7 +77,7 @@
 
 
 
-     <nav class="topnav" id="navbar">
+    <nav class="topnav" id="navbar">
 
         <a id="aboutLink" href="#about_section" class="active">About</a>
         <a id="portfolioLink" href="#portfolio_section">Portfolio</a>
@@ -87,7 +85,7 @@
         <a id="burgerLink" href="javascript:void(0);" class="icon" onclick="openNav()">
             <i class="fa fa-bars"></i>
         </a>
-    </nav>  
+    </nav>
 
 
 
@@ -96,6 +94,9 @@
 
         <div class="wrap">
             <section id="about_section" class="intro">
+
+                <!-- <div class="my_name">Joel Smith</div>
+                <div class="my_tagline">Developer | Scientist | Dreamer</div> -->
 
                 <img class="headshot" src="assets/img/avatar.jpg">
 
@@ -110,12 +111,11 @@
 
 
                 <!-- SKILLS (Thanks Fontawesome) 
-            should this become a grid??? maybe maybe not
-            more skills listed to be needed
+            adjust colors
             -->
                 <div class="all_skills">
 
-                    
+
                     <!-- C++ -->
                     <div class="skill_details">
                         <div class="skill_icon">
@@ -125,7 +125,7 @@
                             <p style="color:#6BBF46">C++</p>
                         </div>
                     </div>
-                    
+
                     <!-- c# -->
                     <div class="skill_details">
                         <div class="skill_icon">
@@ -135,7 +135,7 @@
                             <p style="color:#6BBF46">C#</p>
                         </div>
                     </div>
-                    
+
                     <!-- sql -->
                     <div class="skill_details">
                         <div class="skill_icon">
@@ -145,7 +145,7 @@
                             <p style="color:#EEAD31">SQL</p>
                         </div>
                     </div>
-                    
+
                     <!--embedded -->
                     <div class="skill_details">
                         <div class="skill_icon">
@@ -204,21 +204,36 @@
                         <div class="skill_desc">
                             <p style="color:#F0D92F">JavaScript</p>
                         </div>
-                    </div>    
-                
-                </br>
+                    </div>
+
+                    </br>
                     <h2>Education</h2>
                     <div class="about_text">
 
-                        <div class="edu_degree"><p>Software Engineering Technology Co-Op</p></div>
+                        <div class="edu_degree">
+                            <p>Software Engineering Technology</p>
+                        </div>
+                        <div class="edu_extra">
+                            <p>Co-Op Student</p>
+                        </div>
 
-                        <div class="edu_school"><p>Conestoga College</p></div>
-                         <div class="edu_status">Curently Enrolled</p></div>
+                        <div class="edu_school">
+                            <p>Conestoga College</p>
+                        </div>
+                        <div class="edu_status">Curently Enrolled</p>
+                        </div>
                         </br>
-                       <div class="edu_degree"><p>Bachelor of Science - Major in Physics, Minor in Chemistry</p></div>
-
-                       <div class="edu_school"><p>Mount Allison University</p></div>
-                        <div class="edu_status"> Graduated 2015</p></div>
+                        <div class="edu_degree">
+                            <p>Bachelor of Science</p>
+                        </div>
+                        <div class="edu_extra">
+                            <p>Major in Physics, Minor in Chemistry</p>
+                        </div>
+                        <div class="edu_school">
+                            <p>Mount Allison University</p>
+                        </div>
+                        <div class="edu_status"> Graduated 2015</p>
+                        </div>
 
                     </div>
 
@@ -227,11 +242,11 @@
 
         <!--maybe add a modal for each project? -->
         <section id="portfolio_section">
-           
-                    <h2 class="section_name">Projects</h2>
-                
+
+            <h2 class="section_name">Projects</h2>
+
             <div class="projects">
-                
+
                 <div class="project_wrapper">
 
                     <div class="project_tile">
@@ -290,7 +305,8 @@
                         <div class="project_info">
                             <div class="project_words">
                                 <h3>Portfolio Homepage</h3>
-                                <p>This website you here, crafted with HTML, CSS, PHP and JS. Designed to be extensible and always under improvement.</p>
+                                <p>This website you here, crafted with HTML, CSS, PHP and JS. Designed to be extensible
+                                    and always under improvement.</p>
                             </div>
                             <div class="project_links">
                                 <a href="#" target="_blank">Github</a>
@@ -305,8 +321,8 @@
                         <div class="project_info">
                             <div class="project_words">
                                 <h3>HomeLab</h3>
-                                <p>My personal homelab has been growing for years, featuring modern, vintage and
-                                    refurbished equipment.</p>
+                                <p>My personal homelab has been growing for years, featuring modern and vintage
+                                    equipment.</p>
                             </div>
                             <div class="project_links">
                                 <a href="#" target="_blank">Lab Scope</a>
@@ -351,25 +367,25 @@
                         <a href="https://www.github.com/joel-smith/" target="_blank">GitHub</a>
                     </div>
                 </div>
-            
 
-            <!-- LINKEDIN -->
-            <div class="contact_details">
-                <div class="icon">
-                    <a href="https://www.linkedin.com/in/joelcraigsmith/" target="_blank"><i
-                            class="fab fa-linkedin fa-3x" style="color:#0378A6"></i></a>
+
+                <!-- LINKEDIN -->
+                <div class="contact_details">
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/joelcraigsmith/" target="_blank"><i
+                                class="fab fa-linkedin fa-3x" style="color:#0378A6"></i></a>
+                    </div>
+                    <div class="desc">
+                        <a href="https://www.linkedin.com/in/joelcraigsmith/" target="_blank">LinkedIn</a>
+                    </div>
                 </div>
-                <div class="desc">
-                    <a href="https://www.linkedin.com/in/joelcraigsmith/" target="_blank">LinkedIn</a>
-                </div>
-            </div>
 
             </div>
 
             <!--Contact Form, sends me an email to my own domain emails -->
             <div class="formContainer">
                 <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" id="contact_form">
-                    
+
                     <div class="row">
                         <div class="col-25">
 
@@ -437,7 +453,10 @@
 
             $headers .= "Reply-To: $visitor_email \r\n";
 
-            mail($to,$email_subject,$email_body,$headers);
+            //server will only send email if there is content
+            if (!empty(email_body) && !empty(visitor_email) && !empty(name)) {
+                mail($to,$email_subject,$email_body,$headers);
+            }
 
             ?>
         </section>
