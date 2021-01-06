@@ -1,5 +1,6 @@
 :root {
     font-size: 62.5%/* 62.5% of 16px is 10px, which makes 1rem = 10px */
+   
 }
 
 * {
@@ -199,6 +200,7 @@ html, body {
     font-weight: 400;
     margin: 1rem 0 1rem 0;
     width: 30rem;
+    height: 9rem; 
 }
 
 .project_links {
@@ -241,6 +243,7 @@ html, body {
         font-weight: 400;
         margin: 1rem 0 1rem 0;
         width: auto;
+        height: auto;
     }
 }
 

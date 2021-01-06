@@ -255,7 +255,7 @@
                         <div class="project_info">
                             <div class="project_words">
                                 <h3>Portfolio Homepage</h3>
-                                <p>This very website you are looking at, crafted with HTML, CSS and Javascript. Designed to be extensible and always under improvement!</p>
+                                <p>This website you here, crafted with HTML, CSS, PHP and JS. Designed to be extensible and always under improvement.</p>
                             </div>
                             <div class="project_links">
                                 <a href="#" target="_blank">Github</a>
@@ -300,7 +300,7 @@
         <section id="contact_section">
             <h2>Contact</h2>
             <div class="contact_desc">
-                <p>Always interested in working on new projects and discussing new opportunities, drop me a line in the
+                <p>Interested in working on new projects and discussing new opportunities, drop me a line in the
                     form below or one of the links.</p>
             </div>
             </br>
