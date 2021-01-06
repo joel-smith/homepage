@@ -48,6 +48,19 @@
     });
     </script>
 
+     <script>
+    //expands the navbar on hamburger menu press
+    function openNav() {
+        var x = document.getElementById("navbar");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+
+    </script>
+
 </head>
 
 
@@ -65,17 +78,7 @@
         </a>
     </nav>  
 
-     <script>
-    //expands the navbar on hamburger menu press
-    function openNav() {
-        var x = document.getElementById("navbar");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-    </script>
+
 
     <main id="site_main">
         <!--ABOUT -->
@@ -261,7 +264,7 @@
                         <div class="project_info">
                             <div class="project_words">
                                 <h3>Low Level Snake</h3>
-                                <p>This is a alksjflaksjfas alskjf alskfas falskf jasfij This is a alksjflaksjfas alskjf alskfas falskf jasfij This is a alksjflaksjfas alskjf alskfas falskf jasfij</p>
+                                <p>This is game on an ARM Cortex M using the C language and an 8x8 LED matrix.</p>
                             </div>
                             <div class="project_links">
                                 <a href="#" target="_blank">Github</a>
