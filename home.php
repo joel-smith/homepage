@@ -46,6 +46,17 @@
         });
 
     });
+
+
+    $(document).on('click', function(e) {
+        console.log('click works yo');
+        if (! $(e.target).closest('#navbar').length )
+        {
+            $("#navbar").removeClass(" responsive");
+        }
+
+
+    });
     </script>
 
      <script>
