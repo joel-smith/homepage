@@ -101,22 +101,8 @@
             -->
                 <div class="all_skills">
 
-                    <div class="skill_details">
-                        <div class="skill_icon">
-                            <i class="fab fa-js fa-3x" style="color:#F0D92F"></i>
-                        </div>
-                        <div class="skill_desc">
-                            <p style="color:#F0D92F">JavaScript</p>
-                        </div>
-                    </div>
-                    <div class="skill_details">
-                        <div class="skill_icon">
-                            <i class="fab fa-linux fa-3x" style="color:#5FD4F4"></i>
-                        </div>
-                        <div class="skill_desc">
-                            <p style="color:#5FD4F4">Linux</p>
-                        </div>
-                    </div>
+                    
+                    <!-- C++ -->
                     <div class="skill_details">
                         <div class="skill_icon">
                             <i class="fab fa-cuttlefish fa-3x" style="color:#6BBF46">++</i>
@@ -125,6 +111,8 @@
                             <p style="color:#6BBF46">C++</p>
                         </div>
                     </div>
+                    
+                    <!-- c# -->
                     <div class="skill_details">
                         <div class="skill_icon">
                             <i class="fab fa-cuttlefish fa-3x" style="color:#6BBF46">#</i>
@@ -133,6 +121,8 @@
                             <p style="color:#6BBF46">C#</p>
                         </div>
                     </div>
+                    
+                    <!-- sql -->
                     <div class="skill_details">
                         <div class="skill_icon">
                             <i class="fas fa-database fa-3x" style="color:#EEAD31"></i>
@@ -141,6 +131,8 @@
                             <p style="color:#EEAD31">SQL</p>
                         </div>
                     </div>
+                    
+                    <!--embedded -->
                     <div class="skill_details">
                         <div class="skill_icon">
                             <i class="fas fa-microchip fa-3x" style="color:#45AFF4"></i>
@@ -149,6 +141,18 @@
                             <p style="color:#45AFF4">Embedded</p>
                         </div>
                     </div>
+
+                    <!--linuz -->
+                    <div class="skill_details">
+                        <div class="skill_icon">
+                            <i class="fab fa-linux fa-3x" style="color:#5FD4F4"></i>
+                        </div>
+                        <div class="skill_desc">
+                            <p style="color:#5FD4F4">Linux</p>
+                        </div>
+                    </div>
+
+                    <!--git -->
                     <div class="skill_details">
                         <div class="skill_icon">
                             <i class="fab fa-git-square fa-3x" style="color:#E44D32"></i>
@@ -157,6 +161,8 @@
                             <p style="color:#E44D32">Git</p>
                         </div>
                     </div>
+
+                    <!--html -->
                     <div class="skill_details">
                         <div class="skill_icon">
                             <i class="fab fa-html5 fa-3x" style="color:#DE4B30"></i>
@@ -165,6 +171,8 @@
                             <p style="color:#DE4B30">HTML5</p>
                         </div>
                     </div>
+
+                    <!--css -->
                     <div class="skill_details">
                         <div class="skill_icon">
                             <i class="fab fa-css3-alt fa-3x" style="color:#42A4DA"></i>
@@ -173,7 +181,18 @@
                             <p style="color:#42A4DA">CSS3</p>
                         </div>
                     </div>
-                    </br>
+
+                    <!--js -->
+                    <div class="skill_details">
+                        <div class="skill_icon">
+                            <i class="fab fa-js fa-3x" style="color:#F0D92F"></i>
+                        </div>
+                        <div class="skill_desc">
+                            <p style="color:#F0D92F">JavaScript</p>
+                        </div>
+                    </div>    
+                
+                </br>
                     <h2>Education</h2>
                     <div class="about_text">
 
@@ -392,7 +411,7 @@
             -->
 
             <?php
-	        $email_from = 'contact@joelcs.net';
+	        $email_from = 'contact@joelcs.net'; //has to be from my domain
 
 	        $email_subject = "New Form submission";
 
