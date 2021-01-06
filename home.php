@@ -196,13 +196,15 @@
                     <h2>Education</h2>
                     <div class="about_text">
 
-                        <p>Software Engineering Technology Co-Op</p>
+                        <div class="edu_degree"><p>Software Engineering Technology Co-Op</p></div>
 
-                        <p>Conestoga College - Curently Enrolled</p>
+                        <div class="edu_school"><p>Conestoga College</p></div>
+                         <div class="edu_status">Curently Enrolled</p></div>
                         </br>
-                        <p>Bachelor of Science - Major in Physics, Minor in Chemistry</p>
+                       <div class="edu_degree"><p>Bachelor of Science - Major in Physics, Minor in Chemistry</p></div>
 
-                        <p>Mount Allison University - 2015</p>
+                       <div class="edu_school"><p>Mount Allison University</p></div>
+                        <div class="edu_status"> Graduated 2015</p></div>
 
                     </div>
 
@@ -390,12 +392,6 @@
             <!-- validation and serverside treatment of form data -->
             <?php
                 
-                if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                    $name = treat_input($_POST['name']);
-                    $visitor_email = treat_input($_POST['email']);
-                    $message = treat_input($_POST['message']);
-                }
-                
                 //this function removes whitespace, treats html special chars and removes any slashes
                 function treat_input($data) {
                     $data = trim($data);
@@ -403,24 +399,23 @@
                     $data = htmlspecialchars($data);
                     return $data;
                 }
-                
-                ?>
 
-            <!--need security on this here for sure 
-            https://www.w3schools.com/php/php_form_validation.asp for removal of http special chars
-            -->
+                //did we get here from POST-ing??
+                if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                    
+                    //apply treatment for security
+                    $name = treat_input($_POST['name']);
+                    $visitor_email = treat_input($_POST['email']);
+                    $message = treat_input($_POST['message']);
+                }
 
-            <?php
+                  
 	        $email_from = 'contact@joelcs.net'; //has to be from my domain
 
 	        $email_subject = "New Form submission";
 
 	        $email_body = "You have received a new message from the user $name.\n".
-                            "Here is the message:\n $message"
-            ?>
-
-
-            <?php
+                            "Here is the message:\n $message";
 
             $to = "contact@joelcs.net";
 
