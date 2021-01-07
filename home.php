@@ -45,6 +45,14 @@
             }
         });
 
+        $("#burgerLink").click(function(e) {
+            if (!$("#navbar").hasClass("responsive")) {
+                $("#navbar").toggleClass("responsive");
+            } 
+            else if ($("#navbar").hasClass("responsive")){
+                $("#navbar").removeClass("responsive");
+            }
+        });
     });
 
     //collapses the navbar menu when clicking outside of it
@@ -52,13 +60,11 @@
 
         if (!$(e.target).closest('#navbar').length) {
             $("#navbar").removeClass(" responsive");
-        } else if ($(e.target).closest('#burgerLink')) {
-            if (!$("#navbar").hasClass("responsive")) {
-                $("#navbar").toggleClass("responsive");
-            }
-        }
+        } 
+
 
     });
+    
     </script>
 </head>
 
@@ -72,7 +78,7 @@
         <a id="aboutLink" href="#about_section" class="active">About</a>
         <a id="portfolioLink" href="#portfolio_section">Portfolio</a>
         <a id="contactLink" href="#contact_section">Contact</a>
-        <a id="burgerLink" href="javascript:void(0);" class="icon" onclick="openNav()">
+        <a id="burgerLink" href="javascript:void(0);" class="icon" >
             <i class="fa fa-bars"></i>
         </a>
     </nav>
@@ -291,7 +297,7 @@
 
                     <div class="project_tile">
                         <div>
-                            <img class="project_pic" src="assets/img/placeholder.jpg" alt="Project_Screenshot">
+                            <img class="project_pic" src="assets/img/homepage.jpg" alt="Project_Screenshot">
                         </div>
                         <div class="project_info">
                             <div class="project_words">
