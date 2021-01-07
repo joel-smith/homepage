@@ -49,16 +49,19 @@
 
     //collapses the navbar menu when clicking outside of it
     $(document).on('click', function(e) {
-        console.log('click works yo');
+
         if (!$(e.target).closest('#navbar').length) {
             $("#navbar").removeClass(" responsive");
+        } else if ($(e.target).closest('#burgerLink')) {
+            if (!$("#navbar").hasClass("responsive")) {
+                $("#navbar").toggleClass("responsive");
+            }
         }
-
 
     });
     </script>
 
-    <script>
+    <!-- <script>
     //expands the navbar on hamburger menu press
     function openNav() {
         var x = document.getElementById("navbar");
@@ -68,7 +71,7 @@
             x.className = "topnav";
         }
     }
-    </script>
+    </script> -->
 
 </head>
 
