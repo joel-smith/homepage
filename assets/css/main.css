@@ -3,8 +3,8 @@
     /* 62.5% of 16px is 10px, 1rem = 10px */
     /*color scheme*/
     --bg-primary: #333;
-    --bg-secondary: #192038;
-    --col-active: #4CAF50;
+    --bg-secondary: black;
+    --col-active: #2f4046;/*#4CAF50;*/
     --col-link: #A65903;
     --col-border: #483d8b;
     --col-bubble: #132329;
@@ -30,8 +30,14 @@ html, body {
     text-align: center;
 }
 
-h2, h3 {
-    color: var(--white);
+h2 {
+    padding: 1rem;
+    color: var(--black);
+}
+
+h3 {
+    padding: 1rem;
+    color: var(--black);
 }
 
 /*NAVBAR*/
@@ -107,7 +113,7 @@ h2, h3 {
 
 .headshot {
     width: 13%;
-    border-color: var(--col-border);
+    border-color: black;
     border-width: 1rem;
     border-style: solid;
     border-radius: 50%;
@@ -115,7 +121,7 @@ h2, h3 {
 
 @media screen and (max-width: 600px) {
     .headshot {
-        width: 22%;
+        width: 33%;
     }
 }
 
@@ -124,13 +130,23 @@ h2, h3 {
     margin-top: 3em;
 }
 
-/* .my_name{
-
+.biz_card {
+    border: 1px solid black;
+    margin-left: 22%;
+    margin-right: 22%;
 }
 
-.my_tagline{
+.my_name {
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--black);
+}
 
-} */
+.my_tagline {
+    font-size: 2.3rem;
+    padding: 2rem;
+    color: var(--black);
+}
 
 .about_text {
     background-color: var(--col-bubble);

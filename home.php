@@ -60,19 +60,6 @@
 
     });
     </script>
-
-    <!-- <script>
-    //expands the navbar on hamburger menu press
-    function openNav() {
-        var x = document.getElementById("navbar");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-    </script> -->
-
 </head>
 
 
@@ -98,8 +85,9 @@
         <div class="wrap">
             <section id="about_section" class="intro">
 
-                <!-- <div class="my_name">Joel Smith</div>
-                <div class="my_tagline">Developer | Scientist | Dreamer</div> -->
+                <div class="my_name">Joel Smith</div>
+
+                <div class="my_tagline">Developer | Scientist</div> 
 
                 <img class="headshot" src="assets/img/avatar.jpg">
 
