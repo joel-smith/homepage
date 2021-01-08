@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- add stub for contact while contact is not visible (review ecdcambridge.com chat) -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-    <title>Webfolio</title>
+    <title>Joel Smith - Webfolio</title>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -439,7 +445,7 @@
                   
 	        $email_from = 'contact@joelcs.net'; //has to be from my domain
 
-	        $email_subject = "New Form submission";
+	        $email_subject = "$name $message";
 
 	        $email_body = "You have received a new message from the user $name.\n".
                             "Here is the message:\n $message";
@@ -451,7 +457,7 @@
             $headers .= "Reply-To: $visitor_email \r\n";
 
             //server will only send email if there is content
-            if (!empty(email_body) && !empty(visitor_email) && !empty(name)) {
+            if (!empty($message) && !empty($visitor_email) && !empty($name)) {
                 mail($to,$email_subject,$email_body,$headers);
             }
 
