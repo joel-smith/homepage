@@ -278,7 +278,7 @@
 
                     <div class="project_tile">
                         <div>
-                            <img class="project_pic" src="assets/img/placeholder.jpg" alt="Project_Screenshot">
+                            <img class="project_pic" src="assets/img/chatchat.jpg" alt="Project_Screenshot">
                         </div>
                         <div class="project_info">
                             <div class="project_words">
@@ -287,9 +287,7 @@
                                     other in a chatroom across the network</p>
                             </div>
                             <div class="project_links">
-                                <a href="#" target="_blank">???</a>
-                                <a href="#" target="_blank">GitHub</a>
-                                <a href="#" target="_blank">THIRDLINK</a>
+                                <a href="https://github.com/joel-smith/chatchat" target="_blank">GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -320,7 +318,7 @@
                                     and always under improvement.</p>
                             </div>
                             <div class="project_links">
-                                <a href="#" target="_blank">Github</a>
+                                <a href="https://github.com/joel-smith/homepage" target="_blank">Github</a>
                             </div>
                         </div>
                     </div>
