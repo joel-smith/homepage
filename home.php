@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- add stub for contact while contact is not visible (review ecdcambridge.com chat) -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +14,10 @@
 
     <title>Joel Smith - Webfolio</title>
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -54,10 +55,13 @@
         $("#burgerLink").click(function(e) {
             if (!$("#navbar").hasClass("responsive")) {
                 $("#navbar").toggleClass("responsive");
-            } 
-            else if ($("#navbar").hasClass("responsive")){
+            } else if ($("#navbar").hasClass("responsive")) {
                 $("#navbar").removeClass("responsive");
             }
+        });
+
+        $("#burgerLink").click(function(e) {
+
         });
     });
 
@@ -66,11 +70,10 @@
 
         if (!$(e.target).closest('#navbar').length) {
             $("#navbar").removeClass(" responsive");
-        } 
+        }
 
 
     });
-    
     </script>
 </head>
 
@@ -84,7 +87,7 @@
         <a id="aboutLink" href="#about_section" class="active">About</a>
         <a id="portfolioLink" href="#portfolio_section">Portfolio</a>
         <a id="contactLink" href="#contact_section">Contact</a>
-        <a id="burgerLink" href="javascript:void(0);" class="icon" >
+        <a id="burgerLink" href="javascript:void(0);" class="icon">
             <i class="fa fa-bars"></i>
         </a>
     </nav>
@@ -99,7 +102,7 @@
 
                 <div class="my_name">Joel Smith</div>
 
-                <div class="my_tagline">Developer | Scientist</div> 
+                <div class="my_tagline">Developer | Scientist</div>
 
                 <img class="headshot" src="assets/img/avatar.jpg">
 
@@ -254,7 +257,7 @@
 
                     <div class="project_tile">
                         <div>
-                            <img class="project_pic" src="assets/img/placeholder.jpg" alt="Project_Screenshot">
+                            <img id="" class="project_pic" src="assets/img/simplehttpwebserver.jpg" alt="Project_Screenshot">
                         </div>
                         <div class="project_info">
                             <div class="project_words">
@@ -267,6 +270,11 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Some text in the Modal..</p>
+                    </div> -->
 
                     <div class="project_tile">
                         <div>
