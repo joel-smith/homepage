@@ -152,6 +152,16 @@
                         </div>
                     </div>
 
+                    <!-- nosql -->
+                    <div class="skill_details">
+                        <div class="skill_icon">
+                            <i class="fas fa-database fa-3x" style="color:#EEAD31"></i>
+                        </div>
+                        <div class="skill_desc">
+                            <p style="color:#EEAD31">noSQL</p>
+                        </div>
+                    </div>
+
                     <!--embedded -->
                     <div class="skill_details">
                         <div class="skill_icon">
@@ -209,6 +219,16 @@
                         </div>
                         <div class="skill_desc">
                             <p style="color:#F0D92F">JavaScript</p>
+                        </div>
+                    </div>
+
+                    <!--node.js -->
+                    <div class="skill_details">
+                        <div class="skill_icon">
+                            <i class="fab fa-node fa-3x" style="color:#F0D92F"></i>
+                        </div>
+                        <div class="skill_desc">
+                            <p style="color:#F0D92F">node.js</p>
                         </div>
                     </div>
 
