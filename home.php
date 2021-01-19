@@ -299,7 +299,7 @@
                             <div class="project_words">
                                 <h3>c3-http</h3>
                                 <p>This is a Web Server made exclusively in node.js, currently hosted on Heroku and
-                                   demonstrates serving html, text and image files.</p>
+                                   demonstrates serving html, text and images.</p>
                             </div>
                             <div class="project_links">
                                 <a href="https://github.com/joel-smith/c3-http/" target="_blank">GitHub</a>
@@ -325,6 +325,21 @@
                             </div>
                             <div class="project_links">
                                 <a href="https://github.com/joel-smith/chatchat" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project_tile">
+                        <div>
+                            <img class="project_pic" src="assets/img/FakePad.jpg" alt="Project_Screenshot">
+                        </div>
+                        <div class="project_info">
+                            <div class="project_words">
+                                <h3>FakePad</h3>
+                                <p>This is a clone of Notepad using C# and WPF, featuring full file open/save capabilties and basic formatting.</p>
+                            </div>
+                            <div class="project_links">
+                                <a href="https://github.com/joel-smith/FakePad" >GitHub</a>
                             </div>
                         </div>
                     </div>
