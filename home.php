@@ -329,7 +329,7 @@
                         </div>
                     </div>
 
-                    <div class="project_tile">
+                    <!-- <div class="project_tile">
                         <div>
                             <img class="project_pic" src="assets/img/placeholder.jpg" alt="Project_Screenshot">
                         </div>
@@ -342,7 +342,7 @@
                                 <a href="#" target="_blank">Github</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="project_tile">
                         <div>
@@ -360,7 +360,7 @@
                         </div>
                     </div>
 
-                    <div class="project_tile">
+                    <!-- <div class="project_tile">
                         <div>
                             <img class="project_pic" src="assets/img/placeholder.jpg" alt="Project_Screenshot">
                         </div>
@@ -374,7 +374,7 @@
                                 <a href="#" target="_blank">Lab Scope</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="project_tile">
                         <div>
@@ -387,7 +387,7 @@
                                     competition.</p>
                             </div>
                             <div class="project_links">
-                                <a href="#" target="_blank">GitHub</a>
+                               <!-- <a href="#" target="_blank">GitHub</a>-->
                             </div>
                         </div>
                     </div>
