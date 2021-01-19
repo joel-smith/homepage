@@ -271,6 +271,23 @@
                         </div>
                     </div>
 
+                    <div class="project_tile">
+                        <div>
+                            <img id="" class="project_pic" src="assets/img/c3-http.jpg" alt="Project_Screenshot">
+                        </div>
+                        <div class="project_info">
+                            <div class="project_words">
+                                <h3>c3-http</h3>
+                                <p>This is a Web Server made exclusively in node.js, currently hosted on Heroku and
+                                   demonstrates serving html, text and image files.</p>
+                            </div>
+                            <div class="project_links">
+                                <a href="https://github.com/joel-smith/c3-http/" target="_blank">GitHub</a>
+                                <a href="https://calm-badlands-66492.herokuapp.com/" target="_blank">Heroku</a>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- <div class="modal-content">
                         <span class="close">&times;</span>
                         <p>Some text in the Modal..</p>
